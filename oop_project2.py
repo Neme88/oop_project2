@@ -14,4 +14,9 @@ class Teller (Person):
     def issueCard():
         pass
     
-        pass
+class Account :
+    def __init__(self, id, customerId) :
+        self.id = id
+        self.customerId = customerId
+        
+        
