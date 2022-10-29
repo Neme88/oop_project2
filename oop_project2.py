@@ -21,4 +21,7 @@ class Account :
 class Checking (Account):
     def __init__(self, id, customerId):
         super().__init__(id, customerId)
+class Savings (Account):
+    def __init__(self, id, customerId):
+        super().__init__(id, customerId)
         
