@@ -18,5 +18,7 @@ class Account :
     def __init__(self, id, customerId) :
         self.id = id
         self.customerId = customerId
-        
+class Checking (Account):
+    def __init__(self, id, customerId):
+        super().__init__(id, customerId)
         
